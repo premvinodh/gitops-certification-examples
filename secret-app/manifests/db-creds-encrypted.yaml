@@ -1,19 +1,25 @@
-apiVersion: bitnami.com/v1alpha1
-kind: SealedSecret
-metadata:
-  creationTimestamp: null
-  name: mysql-credentials
-  namespace: default
-spec:
-  encryptedData:
-    connection: AgBrUhfBFD3GzdI3m5g8xGiwEMmHAG3W7qSDgHt80h2Qb/oiyKPfxyPmz62KJf+YrU3rHxkQ2hX97UbCQakchKejm9Zq95rnHPDlhYRlJ+W/cPAvOgIU7wLy4O8keWoMP0mZi6lOpwcCjIzjY57n+7eyeDaFcL2j3xy5Hhk6JTH/MsU7UcwwikuCQJyrOkIM3I/iN2ctlyVZ0osusTOLEsY60ZMYQ44glm/nQi0TnNOi8uj4jNK1dzS+C2ZErlOJqiG/uLNVyi8teDjWHInFhwBYxyDEe5I+WihK3i+Cb0tE62kiJqdhSsMVlsJOpp6u7NOGU5QMtcyp5+rQN3KgLwbm6dKNIvdaoKrzf8pgVqO9ePhs9UYZsxnMLtGp6LPLn6tMUVBlYyIN/9vx3XR7q7LmIi+2TXj9JnlTYWYN74+ZejdTA79bLX8Bt9kG2XlpjDgFfNhHa22IxNf3I6f5B2CGmKBb4eaebp817k+KSgVTj+W8kK0IOBASonKXdqQUu6kBOTpn5aegEDMaX+ct/5j5XRYLVB9cnRg8E3MgYN+gYU2PZmAnYWJuIpyntPpHNPd2w9P01BzAz+ojxfH13BVjtRo9bfrN9GiZYHo3Lpc5hRYOZP0AEarsPHqyWiIlbgjVzvCTEGkI0yz8P40hEdrtdeZ1LqLSrR3JuERLLQA7/NmfqPOpa8RgiocIK09VesBJOmSHBVs1xHQuw9vgrKRxZ3GcM8iRWylOeR125X/ZNgA=
-    password: AgAFmMg8KlLNFkgyTUgFQAdGGOqzBOF6mx9zCJlVck46yyXGoXHRasIrKfKpZtk2uu/qOxD+0eO0GKL4drjwcMgiNUzo6DAy+NRk35HItgxCxDJ7K4bcXEmJUfbQIvvKRZtmwqm02lRTY79RSO4RJAf77kh2fOMJtjhZYWgOW1bLhg19+W3Xr04j+V/2a0Qv3fZhSimD4ozXbMfvNEDp3uamlA8Ot3TvLh4ZAujxN4h91Pv0j/C3Rhe9U4cR6lBkPRAbk6Fzm+lCEjetXpDXATANXA7UK9kFpxuJurUYm4Ghn/SQuwT4ahc/jK7YTYjKCTaLlP2wdOYgTfdHQpsXpT2bg5SzVl/dzIH4skv6+bnC5a223kTkJ/51VDUgfdXoLBh7LN4SuG9sCML09xfKh2jWnXHVgbUXvSy5nPwClT+X7yzD56E3jMjkby31OXTAo4a/ni/N2jh1lrEFLeKWIzfo/uqbKL6QoA1HexuTBecvUQwOpAhRGwD4lMNrqckFq5rg8eSQfcXdt/PFoXhMyCLZNJqi00mjJ9OHVVsAw1XToHAapn4Jl3KPYWsY+J1AZzqLEioHZIb+nsBHJ01XhyfSN8ax+DtQKngiy5UMA78ddGhMsKrQloIfibk9jlZbL8xeFnlLqmw+UalKuTF8JTdaz0ETmyckVXtHUiIjgrgEseGzTBctPXGnIDhP6zq+N6n73f4d+dd8jXPK+c6GwVM=
-    username: AgAnmlwUly59hJWsw4CVUZ+Yy5PbSQZh/7jr4NKGMIItz+oTZjFNFZ94GIQJ3+JVUPJuSH8segELw87TGd6kt2GHR6dnh4vp+bdNfBmkF2KRmEWdZGDFCG5En8HVppXuChn8mKsn2rD5uxE0/1lLXLH/m3goMgT/5SnqQpFel38RW/diuxI2faDZtuZnsCods0Egc7AQh/l3xmDZGyWoG4K824HZEe+EAPq08xPfPjyj4fctGJyvfWAjxMgTk8xQvBoY3jowUXKDl96bvkuWpsoauHTVDedlL/P1TeuLZ22sHJH40kS1dHOEqYxzqmcnIsKfAVKCud/8zJ3Md+opgz9LAG6G53YFqa/Tfk6i1vXM67JNSzyirFt9RnLc698jk797al8pAX/51kRVEPW6DRgaJY78VfJXgN3Ysy63QmLEJAzbCJIFWzdpAhbo9ut2rwcmqg8nmysqC8l+4AQ8z6T2n4zFIzZ/upaR9OItIlXocIKrT4537wEdg4B7WYM92x/ZK6ig0/mEMo4Fb3+mO6EDXYXhWaNnG31w/K9K5yrIlKYZVHGlpP4DIIE4/tu/4k4ODos8HQW766Ui1BfD7Wen+I4e9+q/sehwtEg85jP2GF6OURQGDjGWo/+tBMjK9qv+aOxmErax7zE8bht9ycJBEPxZEtxqmIT5CNSvhyLxX4yUapMHIeop7AIS7qlk2BRr9nqLctw2saO6qA==
-  template:
-    data: null
-    metadata:
-      creationTimestamp: null
-      name: mysql-credentials
-      namespace: default
-    type: Opaque
-
+{
+  "kind": "SealedSecret",
+  "apiVersion": "bitnami.com/v1alpha1",
+  "metadata": {
+    "name": "mysql-credentials",
+    "namespace": "default",
+    "creationTimestamp": null
+  },
+  "spec": {
+    "template": {
+      "metadata": {
+        "name": "mysql-credentials",
+        "namespace": "default",
+        "creationTimestamp": null
+      },
+      "type": "Opaque",
+      "data": null
+    },
+    "encryptedData": {
+      "connection": "AgCyKZetF8K8HybqcKrofiQ5USkhIM5tiFcQ3xMzoHVCmmoczVWc6qDY3T60nRnm+vlILNy05xDpMkD/G3n46Npcz+fk+IuaX3lVg/9AJ6h2hGfQBr6gEZyf+nu71zxIvKQDK/1vRXRMIElY2s3cPFunyLS4L5RE7uOlJl3IFgk4Prc97DbVESr4zhSHtm+D1IWvPpyw0GM879kTwsuUpN4qr9CPGcdSUod+nV6J1ZF6rBIZby5vzYC9EcibLgunAer7W+prj5yXGhTCiQX1EtVkYZRcNsUfkFWItIgpWFD45hvIkBIEKCrGsnSGkZU0UclYrxGVGUabxhYK6pKqF+J512XziC3ikVrf5xg70jFUBtBJxqYe7fAiRJm5+HEfVgsaTzFhjqx8otysYOVRC8LgY8sAg/s9rSshj6TY2h3SHLS6PDxMgOBrGW70XzpFadlKEu1i0x13uBAp7lKYQwD+YBa6h4uIHpuekWYCfcbJZ+eDl37nU74Mljo55RHIhOTZIGH3SO+iKgY3jkLAMJfrNTNxzad3gj1g8S72aGFQX9Dsfzy9DZp4hiKsfnezADueMXX+J7bD4XEAhFLll+axYbo31nTZOr88qfG63f/PWMJT/lPSP1KPU2xuie4R9DkttEwuGGDH1Aq4KUC3wvbaMdd0iIWjCOzZWfq6c0p6/A5cxdrmRq3vf2Yp9yf3ErCRTbfNxX9OAnWplaIzD3rckG1Qsq37ZIl1ugSFKSD2LL4=",
+      "password": "AgBGMgXNeeNMqTonSeQqb0Uu+B25zW9O7EqRCM0R73KgEqeLj11ILY0wZqAz4ivQrIhcHIFSnnHovf6RuDQ1Oqp0Hvw0SblNM0B2rcDhASLEgKPye5WvzXlaTqgpPtE6T/XUa0MWBkUw7wPrtuGEkE/MtQP8N7qeY1lqbqsBzassonqCKGpuJARDQVyGZj9h8cCtIy6+2XJPSTsThMm7/gdnNRqRXr6HPkw2DHWeD3bgpkcOc881equOjWZVML0Sjj4HfrrrmnrvGh3vHg+RXAJcKf5sfzuXcZqOMuQe3CZQouA7S1ZiFXMecBqG2jfC+dTJNtKLVWrxaw+5SHm3TTi0cAW9xDjG8zelTzGJ9zjNhjdgLCDEVq4y4IzPs+IsJKqmj70wG6ye+GMkT6vNEgEGRStXKuEJ31UxcMLRGfeO3pRHMlenVykCjNGPEKEZRmoPy5EtqgoOg2/5TRkDkFyA2/Vdg3lsgEjimhzRoBNzpQgQ3CSdlFjI4Tx+LzoWvlTxd2FyiukqIJRA1hEjSUgjl59jvKmW2m7Smzw9Lx3Co0iu/ZLWDUe73a/xOOTaN1H99yNux3Cuv5yGEaTsSKA+B+J9PPAhJBIV2abuidXKxoqIYzoXeuVYutVS4NEuvpvD9v+wusZSlwdxO0Cc/m/dfGLVnIYzqMrKc14azV1wuNysgJ95v5pQNro5C5PbXRIBllnweHaIXLmZp4Q+l70=",
+      "username": "AgBQUyhWVJeIIipvTIu/79EdLlXYqk/cSnoAhNe95BPIfZlQWDtx/lUgIlUyxayOdVMMHmwIVHnwj6yJAz0zk3d2o8uxkmvDKy/rD9mHiuOSAW5UUOgAgnR//LcMrt16wLk2ZkUVKtkCmuunxqzynKs+l8eCE4b/EeObxPepa0unxZi+w/zArGBxtIo88enHB254zAfL3VfvD/4JB6oDZP+yNO7Elidhr/CuG0KjMM085Q7/TrgTLHv1gnnFt2A6A73ScdWGhSx/gxcBlkxAbuZB8Rk7iFh14W7yGn37ovq8b1cYsNyQyt4UkfjrD12m5clctcpMLx5SOalTNqX6hiZuzaG/xhd7bX6dNXVDDFUFhc31QYMZf33ODf/Ca+3uObQmXZBFu4fST6OvP967Ck1vnyZnNX9kRX0XtSoIPtP649I/AuFFVH3hUnsqVGK9Bj691hcZGdy+A9cPRU1EcPwKxljabk3lmpuatIUdlIQkUfy7qA6lZZlEVwc1DkUuxPQNcVFXn+9yl77inxulQbBuQX4eO+B3hmrrrTB21bBnQwEzkgXY5rpFnWWEjI4xmTvO6mASu1kmYo/c+MQIVrefsqZFpfxPUkqzbRvkOi5gufzqLe8hhhVz9665WGcsSri+VPMICBH3c9eXPM0j5IatRCNdd64fcY9ncgFavCfVvhhqKNCuxyiVW6Cj2FugJJ+yhhFYRe4TDH9o8w=="
+    }
+  }
+}
